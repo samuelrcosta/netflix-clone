@@ -3,7 +3,7 @@ import SelectProfileContainer from './profiles';
 import FirebaseContext from '../contexts/firebase';
 import * as ROUTES from '../constants/routes';
 import FooterContainer from './footer';
-import { Loading, Header, Card } from '../components';
+import { Loading, Header, Card, Player } from '../components';
 
 import logo from '../logo.svg';
 
@@ -85,13 +85,10 @@ export default function BrowseContainer({ slides }) {
               ))}
             </Card.Entities>
             <Card.Feature category={category}>
-              {/*}
               <Player>
                 <Player.Button />
                 <Player.Video src="/videos/bunny.mp4" />
               </Player>
-              {*/}
-              <p>Hello</p>
             </Card.Feature>
           </Card>
         ))}
