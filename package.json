@@ -16,10 +16,14 @@
     "styled-components": "^5.2.1",
     "web-vitals": "^0.2.4"
   },
+  "devDependencies": {
+    "eslint-plugin-prettier": "^3.3.0",
+    "prettier": "2.2.1"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --coverage --watchAll",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -40,8 +44,29 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "eslint-plugin-prettier": "^3.3.0",
-    "prettier": "2.2.1"
+  "jest": {
+    "collectCoverageFrom": [
+      "<rootDir>/src/**/*.js",
+      "!<rootDir>/src/index.js",
+      "!<rootDir>/src/app.js",
+      "!<rootDir>/src/seed.js",
+      "!<rootDir>/src/global-styles.js",
+      "!<rootDir>/src/components/index.js",
+      "!<rootDir>/src/lib/firebase.prod.js",
+      "!<rootDir>/src/hooks/*.js",
+      "!<rootDir>/src/contexts/*.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 90,
+        "functions": 90,
+        "lines": 90,
+        "statements": 90
+      }
+    },
+    "coverageReporters": [
+      "html",
+      "text"
+    ]
   }
 }

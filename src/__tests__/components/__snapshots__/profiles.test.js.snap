@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Profiles /> renders the <Profiles /> with populated data 1`] = `
+<div
+  class="profiles__Container-bxtkkv-0 fGoDNJ"
+>
+  <h1
+    class="profiles__Title-bxtkkv-1 hPuemP"
+  >
+    Who's watching?
+  </h1>
+  <ul
+    class="profiles__List-bxtkkv-2 boiWzJ"
+  >
+    <li
+      class="profiles__User-bxtkkv-5 evaSaO"
+    >
+      <img
+        alt="Joe Doe"
+        class="profiles__Picture-bxtkkv-4 gogdqh"
+        data-testid="profile-picture"
+        src="/images/users/5.png"
+      />
+      <p
+        class="profiles__Name-bxtkkv-3 jQTvVi"
+      >
+        Joe Doe
+      </p>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<Profiles /> renders the <Profiles /> with populated data but misc profile image 1`] = `
+<div
+  class="profiles__Container-bxtkkv-0 fGoDNJ"
+>
+  <h1
+    class="profiles__Title-bxtkkv-1 hPuemP"
+  >
+    Who's watching?
+  </h1>
+  <ul
+    class="profiles__List-bxtkkv-2 boiWzJ"
+  >
+    <li
+      class="profiles__User-bxtkkv-5 evaSaO"
+    >
+      <img
+        class="profiles__Picture-bxtkkv-4 gogdqh"
+        data-testid="profile-picture-misc"
+        src="/images/misc/loading.gif"
+      />
+      <p
+        class="profiles__Name-bxtkkv-3 jQTvVi"
+      >
+        Joe Doe
+      </p>
+    </li>
+  </ul>
+</div>
+`;

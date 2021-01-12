@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> renders basic <Header /> with a default background 1`] = `
+<div
+  class="header__Background-djltcn-0 iOPNDS"
+  data-testid="header-bg"
+>
+  <div
+    class="header__Container-djltcn-1 kWSTgG"
+  >
+    <a
+      href="/"
+    >
+      <img
+        alt="Netflix"
+        class="header__Logo-djltcn-2 hxjAVL"
+        src="./logo.svg"
+      />
+    </a>
+    <a
+      class="header__Button-djltcn-4 tZDcd"
+      href="/signin"
+    >
+      Sign In
+    </a>
+  </div>
+</div>
+`;
+
+exports[`<Header /> renders basic <Header /> without a background 1`] = `
+<div
+  class="header__Background-djltcn-0 iOPNDS"
+  data-testid="header-bg"
+>
+  <div
+    class="header__Container-djltcn-1 kWSTgG"
+  >
+    <a
+      href="/"
+    >
+      <img
+        alt="Netflix"
+        class="header__Logo-djltcn-2 hxjAVL"
+        src="./logo.svg"
+      />
+    </a>
+    <a
+      class="header__Button-djltcn-4 tZDcd"
+      href="/signin"
+    >
+      Sign In
+    </a>
+  </div>
+</div>
+`;
+
+exports[`<Header /> renders basic <Header /> without a background 2`] = `
+<div
+  class="header__Container-djltcn-1 kWSTgG"
+>
+  <a
+    href="/"
+  >
+    <img
+      alt="Netflix"
+      class="header__Logo-djltcn-2 hxjAVL"
+      src="./logo.svg"
+    />
+  </a>
+  <a
+    class="header__Button-djltcn-4 tZDcd"
+    href="/signin"
+  >
+    Sign In
+  </a>
+</div>
+`;
+
+exports[`<Header /> renders the fulll <Header /> ith a background 1`] = `
+<div
+  class="header__Background-djltcn-0 jLMYsP"
+  data-testid="header-bg"
+  src="joker1"
+>
+  <div
+    class="header__Container-djltcn-1 kWSTgG"
+  >
+    <div
+      class="header__Group-djltcn-3 kXnqMt"
+    >
+      <a
+        href="/"
+      >
+        <img
+          alt="Netflix"
+          class="header__Logo-djltcn-2 hxjAVL"
+          src="/images/logo.svg"
+        />
+      </a>
+      <p
+        class="header__Link-djltcn-9 dHFOOS"
+      >
+        Series
+      </p>
+      <p
+        class="header__Link-djltcn-9 dHFOOS"
+      >
+        Films
+      </p>
+    </div>
+    <div
+      class="header__Group-djltcn-3 kXnqMt"
+    >
+      <div
+        class="header__Search-djltcn-13 YTpUK"
+      >
+        <button
+          class="header__SearchIcon-djltcn-14 bkRkrB"
+          data-testid="search-click"
+        >
+          <img
+            alt="Search"
+            src="/images/icons/search.png"
+          />
+        </button>
+        <input
+          class="header__SearchInput-djltcn-15 bmTGpn"
+          data-testid="search-input"
+          placeholder="Search films and series"
+          value="Joker"
+        />
+      </div>
+      <div
+        class="header__Profile-djltcn-12 gagDWK"
+      >
+        <button
+          alt="User"
+          class="header__Picture-djltcn-10 ckKQVC"
+          src="/images/users//images/user.png.png"
+        />
+        <div
+          class="header__Dropdown-djltcn-11 kCVvbj"
+        >
+          <div
+            class="header__Group-djltcn-3 kXnqMt"
+          >
+            <button
+              alt="User"
+              class="header__Picture-djltcn-10 ckKQVC"
+              src="/images/users//images/user.png.png"
+            />
+            <p
+              class="header__Link-djltcn-9 dHFOOS"
+            >
+              User Test
+            </p>
+          </div>
+          <div
+            class="header__Group-djltcn-3 kXnqMt"
+          >
+            <p
+              class="header__Link-djltcn-9 dHFOOS"
+            >
+              Sign out
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="header__Container-djltcn-1 header__Feature-djltcn-5 kWSTgG dCYvwl"
+  >
+    <h2
+      class="header__FeatureCallOut-djltcn-6 jcGnnM"
+    >
+      Watch Joker Now
+    </h2>
+    <p
+      class="header__Text-djltcn-7 dKXRKA"
+    >
+      Forever alone in a crowd
+    </p>
+    <button
+      class="header__PlayButton-djltcn-8 bgCFLp"
+    >
+      Play
+    </button>
+  </div>
+</div>
+`;
