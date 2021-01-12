@@ -29,33 +29,6 @@ exports[`<Header /> renders basic <Header /> with a default background 1`] = `
 
 exports[`<Header /> renders basic <Header /> without a background 1`] = `
 <div
-  class="header__Background-djltcn-0 iOPNDS"
-  data-testid="header-bg"
->
-  <div
-    class="header__Container-djltcn-1 kWSTgG"
-  >
-    <a
-      href="/"
-    >
-      <img
-        alt="Netflix"
-        class="header__Logo-djltcn-2 hxjAVL"
-        src="./logo.svg"
-      />
-    </a>
-    <a
-      class="header__Button-djltcn-4 tZDcd"
-      href="/signin"
-    >
-      Sign In
-    </a>
-  </div>
-</div>
-`;
-
-exports[`<Header /> renders basic <Header /> without a background 2`] = `
-<div
   class="header__Container-djltcn-1 kWSTgG"
 >
   <a
